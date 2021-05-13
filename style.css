@@ -44,7 +44,7 @@ body {
   background: linear-gradient(
     to right,
     rgba(77, 77, 77, 0.75),
-    rgba(8, 83, 156, 0.75)
+    rgba(0, 162, 221, 1.00)
   );
   position: absolute;
   border-radius: 50%;
@@ -95,4 +95,11 @@ button.active {
   cursor: pointer;
   border-radius: 30px;
   font-weight: bolder;
+  font-size: 16px;
+}
+
+.purchase button:hover {
+  background: rgb(0, 182, 248);
+  transition: all 0.75s ease-out
+  transition: all 0.75s ease-in;
 }
