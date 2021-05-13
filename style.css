@@ -77,9 +77,10 @@ body {
   font-weight: bold;
   color: #585858;
 }
-button.active {
+button:hover {
   background: #585858;
   color: white;
+  transition: all 0.35s ease-out;
 }
 .purchase {
   margin-top: 3rem;
@@ -101,5 +102,4 @@ button.active {
 .purchase button:hover {
   background: rgb(0, 182, 248);
   transition: all 0.75s ease-out;
-  transition: all 0.35s ease-in;
 }
