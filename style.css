@@ -101,5 +101,5 @@ button.active {
 .purchase button:hover {
   background: rgb(0, 182, 248);
   transition: all 0.75s ease-out;
-  transition: all 0.75s ease-in;
+  transition: all 0.35s ease-in;
 }
